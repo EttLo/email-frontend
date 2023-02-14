@@ -1,0 +1,37 @@
+.Bar {
+  margin-top: 8vh;
+  margin-left: 12.5vw;
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 6vh;
+  border-style: solid;
+  border-width: 0.1vmin;
+  border-color: white;
+  border-top-left-radius: 2.5vmin;
+  border-top-right-radius: 2.5vmin;
+  display: flex;
+}
+.BarIcon {
+  margin-left: 0.5vw;
+  color: white;
+  text-decoration: none;
+}
+.BarText {
+  margin-left: 5vmin;
+}
+.Submails {
+  height: fit-content;
+  margin-left: 12.5vw;
+  border: white solid 0.1vmin;
+  border-bottom-left-radius: 2.5vmin;
+  border-bottom-right-radius: 2.5vmin;
+}
+.ExistingSubmails {
+  border-bottom: white dashed 0.1vmin;
+}
+.Submail {
+  margin-left: 0.5vw;
+  font-size: large;
+  color: white;
+  text-decoration: none;
+}

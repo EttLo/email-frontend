@@ -1,0 +1,134 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css");
+
+.Everything {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+.DarkMode {
+  background: rgb(60, 60, 60);
+  background: linear-gradient(
+    225deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.NavBar {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: large;
+  width: 100vw;
+  height: 6vh;
+  position: fixed;
+  top: -5vh;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1vmin;
+  border-bottom-color: white;
+  border-bottom-left-radius: 5vmin;
+  border-bottom-right-radius: 5vmin;
+  display: flex;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.NavBar:hover {
+  transform: translate3d(0, 5vh, 0);
+  animation-timing-function: 1s ease-in;
+}
+.NavBar:focus {
+  transform: translate3d(0, 5vh, 0);
+  animation-timing-function: 1s ease-in;
+}
+.NavItem {
+  font-size: 2.5vh;
+  vertical-align: middle;
+  margin: auto;
+}
+#toggle {
+  font-size: small;
+  padding: 0.5vmin;
+  width: 2vw;
+  height: 2vh;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 5vmin;
+  border: 0.1vmin solid white;
+}
+#switch {
+  display: none;
+}
+#switch:checked + #toggle {
+  background: black;
+}
+.body {
+  display: flex;
+}
+.LeftMenu {
+  margin-top: 20vh;
+  vertical-align: middle;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 12vw;
+  position: fixed;
+  left: -8vw;
+  display: flex;
+  border-style: solid;
+  border-width: 0.1vmin;
+  border-color: white;
+  border-radius: 2.5vmin;
+  font-weight: bold;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.LeftMenu:hover {
+  transform: translate3d(8vw, 0, 0);
+  animation-timing-function: 1s ease-in;
+}
+.LeftMenu:focus {
+  transform: translate3d(8vw, 0, 0);
+  animation-timing-function: 1s ease-in;
+}
+.MenuItem {
+  height: 5vh;
+  width: 7vw;
+  margin: 0.1vw;
+  padding: 1vmin;
+  vertical-align: middle;
+  size: 2vmin;
+  text-decoration: none;
+  color: white;
+}
+.MenuItem:hover {
+  text-decoration: underline;
+}
+.MenuItem:focus {
+  font-size: larger;
+  font-weight: bolder;
+}
+.MenuIcon {
+  height: 5vh;
+  width: 8vw;
+  margin: 0.1vw;
+  padding: 1vmin;
+  vertical-align: middle;
+  size: 2vmin;
+  text-decoration: none;
+  color: white;
+}

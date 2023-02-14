@@ -1,0 +1,36 @@
+.Bar {
+  margin-top: 8vh;
+  margin-left: 12.5vw;
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 6vh;
+  border-style: solid;
+  border-width: 0.1vmin;
+  border-color: white;
+  border-top-left-radius: 2.5vmin;
+  border-top-right-radius: 2.5vmin;
+  display: flex;
+}
+.BackButton {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.BarText {
+  margin-left: 5vmin;
+}
+.OpenMail {
+  min-height: 49vh;
+  height: fit-content;
+  margin-left: 12.5vw;
+  border-style: solid;
+  border-width: 0.1vmin;
+  border-color: white;
+  border-bottom-left-radius: 2.5vmin;
+  border-bottom-right-radius: 2.5vmin;
+}
+.MailText {
+  margin: 1vmin;
+  margin-bottom: 5vmin;
+}

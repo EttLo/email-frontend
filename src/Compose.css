@@ -1,0 +1,54 @@
+.Bar {
+  margin-top: 8vh;
+  margin-left: 12.5vw;
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 6vh;
+  border-style: solid;
+  border-width: 0.1vmin;
+  border-color: white;
+  border-top-left-radius: 2.5vmin;
+  border-top-right-radius: 2.5vmin;
+  display: flex;
+}
+.BarText {
+  margin-left: 5vmin;
+}
+.BarIcon {
+  margin-left: 0.5vw;
+  color: white;
+  text-decoration: none;
+}
+.ComposeMail {
+  width: 80vw;
+  margin-left: 12.5vw;
+  border-left: white 0.1vmin dashed;
+  border-right: white 0.1vmin dashed;
+}
+.ComposeInputBox {
+  display: flex;
+  margin: 1vmin;
+}
+.InputText {
+  width: 50vw;
+  min-width: fit-content;
+  vertical-align: middle;
+  margin-left: 2vmin;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: large;
+  border: white solid 0.1vmin;
+  border-radius: 2.5vmin;
+  padding: 1vmin;
+}
+.InputText:focus {
+  border: none;
+}
+#composeBody {
+  display: block;
+}
+#bodyText {
+  width: 77.9vw;
+  height: 40vh;
+  margin-left: 0;
+}
